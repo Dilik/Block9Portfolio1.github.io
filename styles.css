@@ -5,6 +5,7 @@ html{
 a{
     text-decoration: none;
     color: aquamarine;
+    font-size: 20px;
 }
 hr{
     background: gray;
@@ -34,4 +35,23 @@ hr{
     width: 200px;
     height: 200px;
     border-radius: 33%;
+}
+#name{
+    font-size: 35px;
+    line-height: 35px;
+}
+#about,.card > ul > li{
+    padding: 0 0 0 15px;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+#name, #about > p{
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+}
+#email{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }

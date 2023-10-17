@@ -7,9 +7,6 @@ a{
     color: aquamarine;
     font-size: 30px;
 }
-hr{
-    background: gray;
-}
 #container{
     position: relative;
     display: flex;
@@ -35,6 +32,7 @@ hr{
     width: 200px;
     height: 200px;
     border-radius: 33%;
+    margin: 20px;
 }
 #name{
     font-size: 35px;
@@ -54,4 +52,47 @@ hr{
     font-size: 25px;
     font-weight: bold;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+nav li {
+    margin: 10px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project {
+    background-color: #fff;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.project {
+    background-color: #078535;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #0beb34;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }

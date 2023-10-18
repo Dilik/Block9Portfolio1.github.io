@@ -53,18 +53,14 @@ a{
     font-weight: bold;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
-
 nav li {
     margin: 10px;
 }
-
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
 }
-
 h1 {
     font-size: 36px;
 }
@@ -72,27 +68,18 @@ h1 {
 p {
     font-size: 18px;
 }
-
 .portfolio {
     display: flex;
     flex-wrap: wrap;
-}
-
-.project {
-    background-color: #fff;
-    margin: 10px;
-    padding: 20px;
-    border: 1px solid #ddd;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 img {
     max-width: 100%;
     height: auto;
 }
 .project {
-    background-color: #078535;
+    background-color: #08a441;
     margin: 10px;
     padding: 20px;
-    border: 1px solid #0beb34;
+    border: 1px solid #08b628;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
